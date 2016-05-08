@@ -9,9 +9,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=New+Rocker:400);
+@import url(https://fonts.googleapis.com/css?family=Kalam:400);
 body {
-  font-family: "Roboto Slab";
+  font-family: "Kalam";
   margin: 0; }
 
 figure {
@@ -28,12 +29,12 @@ a {
   padding: 100px 0; }
 
 .section-title {
-  font: 700 40px "Montserrat";
+  font: 700 40px "New Rocker";
   margin: 0;
   color: #333;
   text-transform: uppercase; }
   .section-title + p {
-    font: 400 italic "Droid Serif";
+    font: 400 italic "New Rocker";
     margin: 10px 0 75px; }
   .section-title.white {
     color: #fff; }
@@ -47,47 +48,50 @@ a {
   background-color: #222;
   border: none; }
   .navbar-default .navbar-brand {
-    color: #fed136;
+    color: #A237AC;
     font-family: "Kaushan Script"; }
+    .navbar-default .navbar-brand img {
+      margin-top: -13px;
+      left: 0; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand:focus {
-      color: #fed136 !important; }
+      color: #A237AC !important; }
   .navbar-default .navbar-toggle {
     border: none;
-    background-color: #fed136;
+    background-color: #A237AC;
     color: #fff; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active, .navbar-default .navbar-toggle:focus {
-      background-color: #fed136 !important; }
+      background-color: #A237AC !important; }
   .navbar-default .navbar-nav > li > a {
-    font-family: "Montserrat";
+    font-family: "New Rocker";
     color: #fff;
     text-transform: uppercase; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
-      color: #fed136 !important; }
+      color: #A237AC !important; }
   .navbar-default .navbar-nav > .active > a {
-    color: #fed136;
+    color: #C23ECA;
     background-color: transparent !important; }
 
 /************************************ */
 /*=========     BANNER     ========= */
 /********************************** */
 #banner {
-  background: url(../images/header-bg.jpg) center center/cover; }
+  background: url(../images/header-bg2.jpg) center center/cover; }
 
 .intro-text {
   padding: 100px 0 50px;
   color: #fff; }
   .intro-text h2 {
-    font: 400 italic 22px/22px "Droid Serif";
+    font: 400 italic 22px/22px "New Rocker";
     margin-bottom: 25px; }
   .intro-text h1 {
-    font: 700 50px/50px "Montserrat";
+    font: 700 50px/50px "New Rocker";
     text-transform: uppercase;
     margin-bottom: 25px; }
   .intro-text a {
-    background-color: #fed136;
+    background-color: #A237AC;
     color: #fff;
     text-transform: uppercase;
-    font: 400 18px "Montserrat";
+    font: 400 18px "New Rocker";
     padding: 20px 40px;
     border-radius: 5px;
     -webkit-border-radius: 5px; }
@@ -100,7 +104,7 @@ a {
 #services .glyphicon {
   width: 115px;
   height: 115px;
-  background-color: #fed136;
+  background-color: #A237AC;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   line-height: 115px;
@@ -108,7 +112,7 @@ a {
   font-size: 50px !important; }
 
 .item-subtitle {
-  font-family: "Montserrat";
+  font-family: "New Rocker";
   font-size: 20px; }
   .item-subtitle + p {
     line-height: 25px;
@@ -131,7 +135,7 @@ a {
       top: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(254, 209, 54, 0.8);
+      background-color: rgba(254, 54, 125, 0.8);
       opacity: 0;
       transition: 500ms;
       -ms-transition: 500ms;
@@ -155,10 +159,10 @@ a {
   background-color: #fff;
   padding: 20px 0; }
   .portfolio-caption h4 {
-    font-family: "Montserrat";
+    font-family: "New Rocker";
     margin: 0; }
   .portfolio-caption p {
-    font-family: "Droid Serif";
+    font-family: "New Rocker";
     font-style: italic;
     font-size: 16px; }
 
@@ -193,7 +197,7 @@ a {
   width: 80px;
   height: 80px;
   border: solid 5px #f1f1f1;
-  background-color: #fed136;
+  background-color: #A237AC;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   overflow: hidden; }
@@ -203,14 +207,14 @@ a {
     color: #fff;
     font-size: 12px;
     line-height: 14px;
-    font-family: "Montserrat";
+    font-family: "New Rocker";
     padding-top: 14px; }
 
 .time-line-text {
   padding: 0 20px 0 100px; }
   .time-line-text h3,
   .time-line-text h4 {
-    font-family: "Montserrat";
+    font-family: "New Rocker";
     font-weight: 700;
     margin: 0; }
   .time-line-text h4 {
@@ -256,7 +260,7 @@ a {
       transform: rotate(360deg);
       -ms-transform: rotate(360deg);
       -webkit-transform: rotate(360deg);
-      background-color: #fed136; }
+      background-color: #A237AC; }
 
 .team-img {
   width: 230px;
@@ -274,11 +278,11 @@ a {
 /*=========     CONTACT     ========= */
 /*********************************** */
 #contact {
-  background: url(../images/map-image.png) no-repeat center 100px #222; }
+  background: url(../images/map-image-2.jpg) no-repeat center 100px #1f1f24; }
 
 #contact-form .form-control {
   padding: 0 20px;
-  font-family: "Montserrat";
+  font-family: "New Rocker";
   height: 65px;
   margin-bottom: 20px;
   font-size: 16px; }
@@ -286,21 +290,21 @@ a {
   padding: 20px;
   height: 235px; }
 #contact-form .btn-lg {
-  background-color: #fed136;
+  background-color: #A237AC;
   padding: 20px 30px;
   color: #fff;
-  font-family: "Montserrat";
+  font-family: "New Rocker";
   border-radius: 8;
   -webkit-border-radius: 8; }
   #contact-form .btn-lg:hover {
-    background-color: #e6b301; }
+    background-color: #6b2472; }
 
 /*********************************** */
 /*=========     FOOTER     ========= */
 /*********************************** */
 footer {
   padding: 50px 0;
-  font-family: "Montserrat";
+  font-family: "New Rocker";
   margin: 0; }
 
 .social-links a {
@@ -322,11 +326,11 @@ footer {
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
-    background-color: #fed136;
+    background-color: #A237AC;
     color: #222; }
 
 .footer-links a {
-  color: #fed136;
+  color: #A237AC;
   text-decoration: underline; }
   .footer-links a:hover {
     color: #222; }
